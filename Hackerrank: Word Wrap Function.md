@@ -1,34 +1,60 @@
-# 🔄 Hackerrank : # 📦 Python Word Wrap Function
+#  Hackerrank : # Python Word Wrap Function
 
-This Python program defines a function that **wraps a long string into multiple lines**, ensuring each line does not exceed a specified width.
+Find the simple interest by getting the principal, rate and time value from the user
+
 
 ---
 
-## 🎯 Aim
+##  Aim
 
-To write a Python function that takes a long string and a specified width, and returns the string formatted with line breaks such that each line has **at most the given width**.
-
----
-
-## 🧠 Algorithm
-
-1. **Start** the program.
-2. Define a function `wrap(string, max_width)`:
-   - Create an empty list `wrapped_lines` to store parts of the string.
-   - Loop through the string using steps of `max_width`.
-   - In each iteration, extract a substring of length `max_width`.
-   - Append this substring to the list.
-3. Join the list with `\n` to create the final string.
-4. Return the result.
-5. **End** the program.
+To write a Python function that takes a long string and a specified width, and returns the string formatted with line breaks such that each line has *at most the given width*.
 
 ---
 
+##  Algorithm
 
-## 🧪 Program
-Add Code Here
+Start
+
+Define a class with required data members.
+
+Create a constructor to initialize the data members.
+
+Define the operator overloading method (_add_) to perform the desired operation (here, complex number division).
+
+Return the result as a new object of the same class.
+
+Define a method to display the result in a readable format.
+
+Create objects of the class with initial values.
+
+Use the overloaded operator between the objects to perform the operation.
+
+Display the final result.
+
+---
+
+
+##  Program
+```
+def simpleInterest(p, t, r):
+    return (p * t * r) / 100
+
+# Getting user input
+p = float(input())
+r = float(input())
+time_input = input()
+
+# Convert time to float (handle fractional input like 9/12)
+if '/' in time_input:
+    num, denom = map(float, time_input.split('/'))
+    t = num / denom
+else:
+    t = float(time_input)
+```
 
 ## Sample Output
+<img width="1047" height="241" alt="image" src="https://github.com/user-attachments/assets/111bcc43-9581-43f3-a011-125c78933e90" />
 
 ## Result
 
+The program was executed successfully
