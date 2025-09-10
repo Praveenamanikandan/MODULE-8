@@ -1,35 +1,61 @@
-# # 🔢 Hackerrank:# 🏆 Student Topper Finder
+# #  Hackerrank:#  Student Topper Finder
 
-This Python program helps determine the **top-performing student** based on the total marks across five subjects. It uses a dictionary to store each student’s marks and identifies the topper using simple calculations and built-in functions.
-
----
-
-## 🎯 Aim
-
-To maintain a dictionary of students with their marks in five subjects, calculate their **total marks**, store them in a new dictionary, and identify the **student with the highest total (topper)**.
 
 ---
 
-## 🧠 Algorithm
+##  Aim
 
-1. **Start** the program.
-2. Create a dictionary `student_marks`:
-   - Keys → Student names.
-   - Values → List of marks in five subjects.
-3. Initialize an empty dictionary `total_marks`.
-4. Loop through `student_marks`:
-   - Calculate the total marks using `sum()`.
-   - Store the result in `total_marks`.
-5. Use `max()` on `total_marks` to find the student with the highest total.
-6. Print:
-   - The `total_marks` dictionary.
-   - The **topper's name and score**.
+Find the simple interest by getting the principal, rate and time value from the user
+
 
 ---
 
-## 💻 PROGRAM:
-ADD CODE HERE
+##  Algorithm
 
+Start
+
+Define a class with required data members.
+
+Create a constructor to initialize the data members.
+
+Define the operator overloading method (__add__) to perform the desired operation (here, complex number division).
+
+Return the result as a new object of the same class.
+
+Define a method to display the result in a readable format.
+
+Create objects of the class with initial values.
+
+Use the overloaded operator between the objects to perform the operation.
+
+Display the final result.
+
+Stop
+
+---
+
+##  PROGRAM:
+```
+
+def simpleInterest(p, t, r):
+    return (p * t * r) / 100
+
+# Getting user input
+p = float(input())
+r = float(input())
+time_input = input()
+
+# Convert time to float (handle fractional input like 9/12)
+if '/' in time_input:
+    num, denom = map(float, time_input.split('/'))
+    t = num / denom
+else:
+    t = float(time_input)
+
+
+```
 ## OUTPUT
+<img width="1155" height="254" alt="image" src="https://github.com/user-attachments/assets/2c979850-90b6-49c7-929c-5b9bcf98e4d5" />
 
 ## RESULT
+The Program was executed successfully
