@@ -11,24 +11,23 @@ Write a python program to display elements from a list, present at odd index pos
 ---
 
 ##  Algorithm
-
 Start
 
-Define a class with required data members.
+Define the problem to be solved.
 
-Create a constructor to initialize the data members.
+Identify the inputs required.
 
-Define the operator overloading method (__add__) to perform the desired operation (here, complex number division).
+Identify the process/steps needed to solve the problem.
 
-Return the result as a new object of the same class.
+Identify the outputs to be produced.
 
-Define a method to display the result in a readable format.
+Write the steps in logical order:
 
-Create objects of the class with initial values.
+Accept input.
 
-Use the overloaded operator between the objects to perform the operation.
+Perform the necessary computations or processing.
 
-Display the final result.
+Produce and display the output.
 
 Stop
 
